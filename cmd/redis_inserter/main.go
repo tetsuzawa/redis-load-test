@@ -33,7 +33,7 @@ func main() {
 	}
 
 	durations := make([]int64, 0, 1000)
-	for i := 0; i < 1000; i++ {
+	for i := 0; i < 800; i++ {
 		//data := make([]string, 0, 130000*2)
 		pipe := rdb.Pipeline()
 		for j := 0; j < 100000; j++ {
